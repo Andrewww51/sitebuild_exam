@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+  border-radius: 0;
+}
+
+/*-----    CSS RESET  ------*/
+body {
+  height: 100vh;
+  background-color: #22b573;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 10px;
+  width: 90%;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 50px;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 130px;
+}
+
+#menu {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#content .big-box {
+  width: 300px;
+  height: 400px;
+}
+
+#content .big-box .small-box {
+  height: 370px;
+  border: 1px solid red;
+}
+
+#small-box-1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+#small-box-2 {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+#small-box-3 {
+  padding: 0px;
+}
+
+.more {
+  text-transform: uppercase;
+}
+
+.paragraph-title, .date, .more {
+  color: orange;
+}
+
+.paragraph-title, .date {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .big-box {
+    width: 40%;
+  }
+  h1 {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
